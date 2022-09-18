@@ -5,7 +5,8 @@ mars = json.loads(response.text)
 
 data = []
 
-for sol in mars['soles']:
+for i in range(0,7):
+    sol = mars['soles'][i]
     row = {
         'date': sol['terrestrial_date'],
         'min_temp': sol['min_temp'],
@@ -16,6 +17,5 @@ for sol in mars['soles']:
     data.append(row)
 
 with open("mars.json", "w") as file:
-    json.dump(data, file)
-
-file.close()
+    final = json.dumps(data, indent=2)
+    file.write(final)
