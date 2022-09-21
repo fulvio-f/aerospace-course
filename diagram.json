@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Murilo Henrique Pasini Trevisan",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": -44.67,
+      "left": -36,
+      "attrs": { "env": "micropython-20220618-v1.19.1" }
+    },
+    { "type": "wokwi-rgb-led", "id": "rgb1", "top": 3.79, "left": -122.17, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "rgb1:COM", "esp:VIN", "black", [ "v0" ] ],
+    [ "rgb1:G", "esp:D13", "limegreen", [ "v0" ] ],
+    [ "rgb1:B", "esp:D12", "blue", [ "v0" ] ],
+    [ "rgb1:R", "esp:D14", "red", [ "v1.08", "h-20.5", "v-56.67", "h59.33", "v80.67" ] ]
+  ]
+}
