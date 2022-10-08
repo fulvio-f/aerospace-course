@@ -1,51 +1,37 @@
 [
   {
-    "date": "2022-09-14",
+    "date": "2022-10-03",
     "min_temp": "-69",
-    "max_temp": "-5",
-    "pressure": "828",
-    "uv_irradiance": "High"
+    "max_temp": "-15"
   },
   {
-    "date": "2022-09-13",
+    "date": "2022-10-02",
+    "min_temp": "-66",
+    "max_temp": "-14"
+  },
+  {
+    "date": "2022-10-01",
+    "min_temp": "-67",
+    "max_temp": "-9"
+  },
+  {
+    "date": "2022-09-30",
+    "min_temp": "-67",
+    "max_temp": "-11"
+  },
+  {
+    "date": "2022-09-29",
+    "min_temp": "-68",
+    "max_temp": "-7"
+  },
+  {
+    "date": "2022-09-28",
+    "min_temp": "-68",
+    "max_temp": "-7"
+  },
+  {
+    "date": "2022-09-27",
     "min_temp": "-69",
-    "max_temp": "-6",
-    "pressure": "829",
-    "uv_irradiance": "High"
-  },
-  {
-    "date": "2022-09-12",
-    "min_temp": "-69",
-    "max_temp": "-7",
-    "pressure": "826",
-    "uv_irradiance": "High"
-  },
-  {
-    "date": "2022-09-11",
-    "min_temp": "-69",
-    "max_temp": "-8",
-    "pressure": "826",
-    "uv_irradiance": "High"
-  },
-  {
-    "date": "2022-09-10",
-    "min_temp": "-57",
-    "max_temp": "-6",
-    "pressure": "809",
-    "uv_irradiance": "High"
-  },
-  {
-    "date": "2022-09-04",
-    "min_temp": "-70",
-    "max_temp": "-7",
-    "pressure": "831",
-    "uv_irradiance": "High"
-  },
-  {
-    "date": "2022-09-03",
-    "min_temp": "-69",
-    "max_temp": "-9",
-    "pressure": "833",
-    "uv_irradiance": "High"
+    "max_temp": "-6"
   }
 ]
